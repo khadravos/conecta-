@@ -1,0 +1,70 @@
+.main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width: 100%; /* Garante que o elemento ocupe toda a largura da tela */
+
+}
+
+/*          container           */
+
+.container{
+margin: 0 auto;
+width: 80%;
+padding: 30px 0;
+}
+
+.container h1 {
+font-family: "Libre Caslon Text", serif;
+font-weight: 700;
+font-style: normal;
+}
+
+/*          container           */
+
+.container{
+margin: 0 auto;
+width: 80%;
+padding: 30px 0;
+}
+
+.container h1 {
+font-family: "Libre Caslon Text", serif;
+font-weight: 700;
+font-style: normal;
+}
+
+
+/*          Card           */
+
+
+
+.card {
+text-align: center;
+margin-bottom: 50px;
+}
+
+.card p {
+font-size: 1em;
+margin: 25px;
+
+font-family: "Belleza", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.custom-card {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+    
+  .custom-card:hover {
+    background-color: #ad0b0b;
+    color: white;
+  }
+    
+  .custom-card:hover .card-title,
+  .custom-card:hover .card-text {
+    color: white !important;
+  }
+    
